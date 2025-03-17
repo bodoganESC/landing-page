@@ -1,0 +1,9 @@
+@font-face {
+    font-family: ULTRAKILL-font;
+    src: url(./fonts/VCR_OSD_MONO.ttf);
+}
+
+body {
+    background-color: black;
+    font-family: 'ULTRAKILL-font', sans-serif;
+}
