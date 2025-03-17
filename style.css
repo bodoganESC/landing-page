@@ -7,3 +7,58 @@ body {
     background-color: black;
     font-family: 'ULTRAKILL-font', sans-serif;
 }
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.header a:hover {
+    color: red;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    margin: 0 6em;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    width: auto;
+    height: 128px;
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 64px;
+    min-width: 700px;
+    flex-wrap: wrap;
+}
+
+.header ul li {
+    flex-shrink: 0;
+}
+
+.top {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 24px;
+    padding: 16px 32px;
+    border: white 8px solid;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    min-width: 690px;
+}
+
+.align-center {
+    align-items: center;
+}
