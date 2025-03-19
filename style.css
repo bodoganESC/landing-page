@@ -84,7 +84,7 @@ a:hover.button {
 }
 
 .information {
-    margin-bottom: 16px;
+    margin-bottom: 32px;
 }
 
 .information .container {
@@ -115,6 +115,7 @@ a:hover.button {
 .list .container {
     flex-direction: column;
     align-items: center;
+    margin-bottom: 32px;
 }
 
 .list ul {
@@ -130,6 +131,7 @@ a:hover.button {
 
 .list li {
     box-sizing: border-box;
+    background-color: black;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -137,8 +139,22 @@ a:hover.button {
     font-size: 24px;
     border: white 8px dashed;
     padding: 16px;
-    height: 250px;
+    height: 280px;
     max-width: fit-content;
+    transition: 0.1s
+}
+
+.list p {
+    margin: 16px 0 0 0;
+}
+
+.list .enemy-name {
+    color: lightskyblue;
+}
+
+.list li:hover {
+    transform: scale(1.2);
+    animation-duration: 100ms;
 }
 
 .list img {
