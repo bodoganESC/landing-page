@@ -5,19 +5,20 @@
 
 body {
     background-color: black;
+    color: white;
     font-family: 'ULTRAKILL-font', sans-serif;
 }
 
-.header a {
+#header a {
     color: white;
     text-decoration: none;
 }
 
-.header a:hover {
+.top a:hover {
     color: red;
 }
 
-.header {
+#header {
     display: flex;
     flex-direction: column;
     margin: 0 6em;
@@ -25,7 +26,6 @@ body {
 
 .container {
     display: flex;
-    flex-direction: row;
 }
 
 .logo {
@@ -33,7 +33,7 @@ body {
     height: 128px;
 }
 
-.header ul {
+#header ul {
     display: flex;
     list-style: none;
     margin: 0;
@@ -43,7 +43,7 @@ body {
     flex-wrap: wrap;
 }
 
-.header ul li {
+#header ul li {
     flex-shrink: 0;
 }
 
@@ -61,4 +61,23 @@ body {
 
 .align-center {
     align-items: center;
+}
+
+.terminal {
+    border: white 8px solid;
+    padding: 16px;
+}
+
+.button {
+    border: white 4px solid;
+    padding: 8px;
+}
+
+a:hover.button {
+    color: white;
+    background-color: rgb(255, 0, 0, 0.5);
+}
+
+.information p{
+    margin-bottom: 32px;
 }
