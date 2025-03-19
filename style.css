@@ -4,9 +4,6 @@
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
     background-color: black;
     color: white;
     font-family: 'ULTRAKILL-font', sans-serif;
@@ -15,6 +12,7 @@ body {
 #header {
     display: flex;
     flex-direction: column;
+    margin-bottom: 16px;
 }
 
 a {
@@ -38,7 +36,7 @@ a {
     margin: 0 6em;
 }
 
-.top a:hover {
+.nav a:hover {
     color: red;
 }
 
@@ -51,7 +49,7 @@ a {
     height: 128px;
 }
 
-.top {
+.nav {
     box-sizing: border-box;
     flex-wrap: wrap;
     align-items: center;
@@ -83,6 +81,10 @@ a {
 a:hover.button {
     color: white;
     background-color: rgb(255, 0, 0, 0.5);
+}
+
+.information {
+    margin-bottom: 16px;
 }
 
 .information .container {
