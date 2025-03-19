@@ -9,28 +9,15 @@ body {
     font-family: 'ULTRAKILL-font', sans-serif;
 }
 
-#header a {
-    color: white;
-    text-decoration: none;
-}
-
-.top a:hover {
-    color: red;
-}
-
 #header {
     display: flex;
     flex-direction: column;
     margin: 0 6em;
 }
 
-.container {
-    display: flex;
-}
-
-.logo {
-    width: auto;
-    height: 128px;
+#header a {
+    color: white;
+    text-decoration: none;
 }
 
 #header ul {
@@ -43,6 +30,19 @@ body {
 
 #header ul li {
     flex-shrink: 0;
+}
+
+.top a:hover {
+    color: red;
+}
+
+.container {
+    display: flex;
+}
+
+.logo {
+    width: auto;
+    height: 128px;
 }
 
 .top {
@@ -69,7 +69,9 @@ body {
 
 .button {
     border: white 4px solid;
+    font-size: 32px;
     padding: 8px;
+    box-sizing: border-box;
 }
 
 a:hover.button {
@@ -82,10 +84,17 @@ a:hover.button {
     justify-content: space-between;
     gap: 16px;
     min-width: 770px;
+    align-items: center;
 }
 
-.information.text p {
-    margin-bottom: 32px;
+.information .text p {
+    font-size: 32px;
+    margin-bottom: 64px;
+}
+
+.information .text h1 {
+    margin: 0;
+    font-size: 64px;
 }
 
 .information img {
