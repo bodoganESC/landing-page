@@ -114,19 +114,38 @@ a:hover.button {
 
 .list .container {
     flex-direction: column;
-    border-top: white 8px dashed;
+    align-items: center;
 }
 
 .list ul {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     gap: 32px;
     list-style: none;
-    margin: 0;
+    margin: 0 300px;
     padding: 0;
 }
 
 .list li {
+    box-sizing: border-box;
     display: flex;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 24px;
+    border: white 8px dashed;
+    padding: 16px;
+    height: 250px;
+    max-width: 200px;
+    width: 200px;
+}
+
+.list img {
+    align-self: center;
+    max-width: 200px;
+    max-height: 200px;
+    width: 128px;
+    height: auto;
 }
