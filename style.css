@@ -138,8 +138,7 @@ a:hover.button {
     border: white 8px dashed;
     padding: 16px;
     height: 250px;
-    max-width: 200px;
-    width: 200px;
+    max-width: fit-content;
 }
 
 .list img {
