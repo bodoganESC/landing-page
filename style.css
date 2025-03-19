@@ -189,3 +189,37 @@ a:hover.button {
     font-weight: bold;
     align-self: flex-end;
 }
+
+.play .container{
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+    margin: 32px auto;
+    padding: 16px 32px;
+    color: gray;
+    font-size: 128px;
+}
+
+.play p {
+    margin: 0 0 64px;
+}
+
+.play a {
+    color: white;
+    margin-top: 64px;
+    font-size: 96px;
+}
+
+.play img {
+    width: 350px;
+    height: auto;
+}
+
+.footer {
+    text-align: center;
+    padding: 0 32px;
+}
+
+.footer a {
+    text-decoration: underline;
+}
