@@ -164,3 +164,27 @@ a:hover.button {
     width: 128px;
     height: auto;
 }
+
+.quote {
+    background-image: url(./images/ultrabackground.png);
+}
+
+.quote .container {
+    flex-direction: column;
+    justify-content: center;
+    padding: 160px 256px;
+}
+
+.quote p {
+    font-size: 36px;
+    margin: 0;
+    text-shadow: 0 1px 12px black;
+    margin-bottom: 8px;
+}
+
+.quote p.commenter {
+    text-shadow: none;
+    font-size: 24px;
+    font-weight: bold;
+    align-self: flex-end;
+}
