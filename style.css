@@ -39,8 +39,6 @@ body {
     margin: 0;
     padding: 0;
     gap: 64px;
-    min-width: 700px;
-    flex-wrap: wrap;
 }
 
 #header ul li {
@@ -48,15 +46,16 @@ body {
 }
 
 .top {
+    box-sizing: border-box;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
     font-size: 24px;
     padding: 16px 32px;
     border: white 8px solid;
-    margin-top: 8px;
-    margin-bottom: 8px;
-    min-width: 690px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+    min-width: 770px;
 }
 
 .align-center {
@@ -78,6 +77,19 @@ a:hover.button {
     background-color: rgb(255, 0, 0, 0.5);
 }
 
-.information p{
+.information {
+    box-sizing: border-box;
+    justify-content: space-between;
+    gap: 16px;
+    min-width: 770px;
+}
+
+.information.text p {
     margin-bottom: 32px;
+}
+
+.information img {
+    border: white 8px solid;
+    width: 400px;
+    height: auto;
 }
