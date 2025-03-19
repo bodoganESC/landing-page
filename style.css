@@ -55,7 +55,7 @@ body {
     border: white 8px solid;
     margin-top: 16px;
     margin-bottom: 32px;
-    min-width: 770px;
+    min-width: 800px;
 }
 
 .align-center {
@@ -83,7 +83,7 @@ a:hover.button {
     box-sizing: border-box;
     justify-content: space-between;
     gap: 16px;
-    min-width: 770px;
+    min-width: 800px;
     align-items: center;
 }
 
