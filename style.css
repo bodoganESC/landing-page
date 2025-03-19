@@ -12,10 +12,9 @@ body {
 #header {
     display: flex;
     flex-direction: column;
-    margin: 0 6em;
 }
 
-#header a {
+a {
     color: white;
     text-decoration: none;
 }
@@ -30,6 +29,10 @@ body {
 
 #header ul li {
     flex-shrink: 0;
+}
+
+.center-margin {
+    margin: 0 6em;
 }
 
 .top a:hover {
@@ -79,12 +82,13 @@ a:hover.button {
     background-color: rgb(255, 0, 0, 0.5);
 }
 
-.information {
+.information .container {
     box-sizing: border-box;
     justify-content: space-between;
+    align-items: center;
     gap: 16px;
     min-width: 800px;
-    align-items: center;
+    flex: 0;
 }
 
 .information .text p {
