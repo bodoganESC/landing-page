@@ -142,7 +142,7 @@ a:hover.button {
     padding: 16px;
     height: 280px;
     max-width: fit-content;
-    transition: 0.1s
+    transition: 0.1s;
 }
 
 .list p {
