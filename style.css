@@ -169,6 +169,7 @@ a:hover.button {
 .quote {
     background-image: url(./images/ultrabackground.png);
     background-attachment: fixed;
+    background-position: center;
     margin: 0;
 }
 
