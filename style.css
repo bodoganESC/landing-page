@@ -113,13 +113,13 @@ a:hover.button {
     height: auto;
 }
 
-.list .container {
+#list .container {
     flex-direction: column;
     align-items: center;
     margin-bottom: 32px;
 }
 
-.list ul {
+#list ul {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -130,7 +130,7 @@ a:hover.button {
     padding: 0;
 }
 
-.list li {
+#list li {
     box-sizing: border-box;
     background-color: black;
     display: flex;
@@ -145,20 +145,20 @@ a:hover.button {
     transition: 0.1s;
 }
 
-.list p {
+#list p {
     margin: 16px 0 0 0;
 }
 
-.list .enemy-name {
+#list .enemy-name {
     color: lightskyblue;
 }
 
-.list li:hover {
+#list li:hover {
     transform: scale(1.2);
     animation-duration: 100ms;
 }
 
-.list img {
+#list img {
     align-self: center;
     max-width: 200px;
     max-height: 200px;
@@ -166,34 +166,34 @@ a:hover.button {
     height: auto;
 }
 
-.quote {
+#quote {
     background-image: url(./images/ultrabackground.png);
     background-attachment: fixed;
     background-position: center;
     margin: 0;
 }
 
-.quote .container {
+#quote .container {
     flex-direction: column;
     justify-content: center;
     padding: 160px 256px;
 }
 
-.quote p {
+#quote p {
     font-size: 36px;
     margin: 0;
     text-shadow: 0 1px 12px black;
     margin-bottom: 8px;
 }
 
-.quote p.commenter {
+#quote p.commenter {
     text-shadow: none;
     font-size: 24px;
     font-weight: bold;
     align-self: flex-end;
 }
 
-.play .container{
+#play .container{
     flex-direction: column;
     justify-content: center;
     width: fit-content;
@@ -203,17 +203,17 @@ a:hover.button {
     font-size: 128px;
 }
 
-.play p {
+#play p {
     margin: 0 0 64px;
 }
 
-.play a {
+#play a {
     color: white;
     margin-top: 64px;
     font-size: 96px;
 }
 
-.play img {
+#play img {
     width: 350px;
     height: auto;
 }
@@ -225,4 +225,8 @@ a:hover.button {
 
 .footer a {
     text-decoration: underline;
+}
+
+html {
+    scroll-behavior: smooth;
 }
